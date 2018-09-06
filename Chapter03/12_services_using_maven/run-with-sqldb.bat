@@ -1,0 +1,1 @@
+java -p book-manage\target\book-manage-1.0.jar;book-service\target\book-service-1.0.jar;sqldb-book-service\target\sqldb-book-service-1.0.jar -m book.manage/com.packt.manage.BookManager

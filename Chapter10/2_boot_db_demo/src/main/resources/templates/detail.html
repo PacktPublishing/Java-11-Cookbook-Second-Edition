@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head></head>
+<body>
+<h1>Person</h1>
+<a th:href="@{/persons}">All people</a>
+<p>ID: [[${person.id}]]</p>
+<p>First Name: [[${person.firstName}]]</p>
+<p>Last Name: [[${person.lastName}]]</p>
+<p>Place: [[${person.place}]]</p>
+</body>
+</html>

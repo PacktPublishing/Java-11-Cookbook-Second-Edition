@@ -1,0 +1,1 @@
+java -p book-manage\target\book-manage-1.0.jar;book-service\target\book-service-1.0.jar;mongodb-book-service\target\mongodb-book-service-1.0.jar -m book.manage/com.packt.manage.BookManager

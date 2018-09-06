@@ -1,0 +1,38 @@
+<?import javafx.geometry.Insets?>
+<?import com.packt.FxmlController?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField	?>
+<?import javafx.scene.control.DatePicker ?>
+<?import javafx.scene.control.Button ?>
+<GridPane alignment="CENTER" hgap="10.0" vgap="10.0"
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="com.packt.FxmlController">
+    <padding>
+        <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+    </padding> 
+    <Text style="-fx-font: NORMAL 15 Arial;" text="Age calculator"
+    	GridPane.columnIndex="0" GridPane.rowIndex="0" 
+    	GridPane.columnSpan="2" GridPane.rowSpan="1">
+    </Text>
+    <Label text="Name" GridPane.columnIndex="0" 
+    	GridPane.rowIndex="1">
+    </Label>
+    <TextField fx:id="nameField" GridPane.columnIndex="1" 
+    	GridPane.rowIndex="1">
+    </TextField>
+    <Label text="Date of Birth" GridPane.columnIndex="0" 
+    	GridPane.rowIndex="2">
+    </Label>
+    <DatePicker fx:id="dateOfBirthPicker" GridPane.columnIndex="1"
+    	GridPane.rowIndex="2">
+    </DatePicker>
+    <Button onAction="#calculateAge" text="Calculate"
+    	GridPane.columnIndex="1" GridPane.rowIndex="3">
+    </Button>
+    <Text  fx:id="resultTxt" style="-fx-font: NORMAL 15 Arial;" 
+    	GridPane.columnIndex="0" GridPane.rowIndex="5" 
+    	GridPane.columnSpan="2" GridPane.rowSpan="1">
+    </Text>
+</GridPane>

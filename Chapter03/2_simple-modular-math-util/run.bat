@@ -1,0 +1,2 @@
+javac -d mods --module-source-path . math.util\*.java math.util\com\packt\math\*.java calculator\*.java calculator\com\packt\calculator\*.java
+java --module-path mods -m calculator/com.packt.calculator.Calculator

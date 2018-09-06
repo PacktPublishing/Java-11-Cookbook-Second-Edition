@@ -1,0 +1,62 @@
+.btn{
+	-fx-border-radius: 4px;
+	-fx-border: 2px;
+	-fx-font-size: 18px;
+	-fx-font-weight: normal;
+	-fx-text-align: center;
+}
+
+.btn-primary {
+	-fx-text-fill: #fff;
+	-fx-background-color: #337ab7;
+	-fx-border-color: #2e6da4;
+}
+
+.btn-success {
+	-fx-text-fill: #fff;
+	-fx-background-color: #5cb85c;
+	-fx-border-color: #4cae4c;
+}
+
+.btn-danger {
+	-fx-text-fill: #fff;
+	-fx-background-color: #d9534f;
+	-fx-border-color: #d43f3a;
+}
+
+.badge{
+	-fx-label-padding: 6,7,6,7;
+	-fx-font-size: 12px;
+	-fx-font-weight: 700;
+	-fx-text-fill: #fff;
+	-fx-text-alignment: center;
+	-fx-background-color: #777;
+	-fx-border-radius: 4;
+}
+
+.badge-info{
+	-fx-background-color: #3a87ad;
+}
+
+.badge-warning {
+	-fx-background-color: #f89406;
+}
+
+.big-input{
+	-fx-text-fill: red;
+	-fx-font-size: 18px;
+	-fx-font-style: italic;
+	-fx-font-weight: bold;
+}
+
+.big-radio{
+	-fx-text-fill: green;
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-background-color: yellow;
+	-fx-padding: 5;
+}
+
+.chkbox{
+	-fx-background: #fff;
+}

@@ -1,0 +1,1 @@
+javac -d mods --module-source-path . math.util\*.java math.util\com\packt\math\*.java

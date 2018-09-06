@@ -1,0 +1,16 @@
+"Hello World"
+String msg = "Hello, %s. Good Morning";
+System.out.println(String.format(msg, "Friend"))
+int someInt = 10;
+boolean someBool = false;
+if ( someBool ) {
+System.out.println("True block executed");
+}
+if ( someBool ) {
+System.out.println("True block executed");
+}else{
+System.out.println("False block executed");
+}
+for ( int i = 0; i < 10; i++){
+System.out.println("I is : " + i);
+}

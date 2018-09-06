@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head></head>
+<body>
+<h1>Persons!</h1>
+<a th:href="@{/persons/form}">New Person</a>
+<ul>
+    <li th:each="p:${persons}">
+        <strong>[[${p.firstName}]] [[${p.lastName}]]</strong> lives in <strong>[[${p.place}]]</strong>
+        <a th:href="@{|/persons/form/${p.id}|}">Edit</a>
+        <a th:href="@{|/persons/${p.id}/delete|}">Delete</a>
+    </li>
+</ul>
+</body>
+</html>

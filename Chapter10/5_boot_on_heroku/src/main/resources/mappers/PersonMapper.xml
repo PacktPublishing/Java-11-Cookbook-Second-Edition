@@ -1,0 +1,30 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.packt.restapp.PersonMapper">
+    <select id="getPersons" resultType="com.packt.restapp.Person">
+        SELECT * FROM person
+    </select>
+
+    <select id="getPerson" resultType="com.packt.restapp.Person" parameterType="int">
+        SELECT * FROM person WHERE id = #{id}
+    </select>
+
+
+    <update id="save" parameterType="com.packt.restapp.Person">
+        UPDATE person SET
+            first_name = #{firstName},
+            last_name = #{lastName},
+            place = #{place}
+        WHERE id = #{id}
+    </update>
+
+    <insert id="insert" parameterType="com.packt.restapp.Person"
+        useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        INSERT INTO person(first_name, last_name, place)
+        VALUES (#{firstName}, #{lastName}, #{place})
+    </insert>
+
+    <delete id="delete" parameterType="int">
+        DELETE FROM person WHERE id = #{id}
+    </delete>
+</mapper>

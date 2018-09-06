@@ -1,0 +1,1 @@
+javac --class-path mlib/* -d classes/ --source-path calculator $(find calculator -name *.java)

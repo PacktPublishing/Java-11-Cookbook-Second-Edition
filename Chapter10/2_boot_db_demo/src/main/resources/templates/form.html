@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+    <style>
+
+        .form-group{
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>[[${person.id != null ? 'Edit Person' : 'New Person'}]]</h1>
+<form th:action="@{/persons/form}" th:object="${person}" method="post">
+    <input type="hidden" th:field="*{id}" />
+    <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" th:field="*{firstName}" id="firstName" />
+    </div>
+    <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" th:field="*{lastName}" id="lastName" />
+    </div>
+    <div class="form-group">
+        <label for="place">Place</label>
+        <input type="text" th:field="*{place}" id="place" />
+    </div>
+
+    <button type="submit">Save</button>
+</form>
+</body>
+</html>

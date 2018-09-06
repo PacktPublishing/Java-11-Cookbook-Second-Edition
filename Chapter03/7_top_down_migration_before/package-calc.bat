@@ -1,0 +1,2 @@
+javac -cp calculator/lib/*;math_util/out/math.util.jar;banking_util/out/banking.util.jar -d calculator/out/classes/ calculator/src/com/packt/calculator/commands/*.java calculator/src/com/packt/calculator/*.java
+jar --create --file=calculator/out/calculator.jar -C calculator/out/classes/ .
