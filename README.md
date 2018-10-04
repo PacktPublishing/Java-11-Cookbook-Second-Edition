@@ -4,10 +4,10 @@
 
 This is the code repository for [Java 11 Cookbook - Second Edition](https://www.packtpub.com/application-development/java-11-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789132359 ), published by Packt.
 
-**Solutions for modular, functional, reactive, GUI, network, and multithreaded programming**
+**A definitive guide to learning the key concepts of modern application development**
 
 ## What is this book about?
-For more than three decades, Java has been on the forefront of developing robust software that has helped versatile businesses meet their requirements. Being one of the most widely used programming languages in history, it’s imperative for Java developers to discover effective ways of using it in order to take full advantage of the power of the latest Java features. Java 11 Cookbook offers a range of software development solutions with simple and straightforward Java 11 code examples to help you build a modern software system.
+For more than three decades, Java has been on the forefront of developing robust software that has helped versatile businesses meet their requirements. Being one of the most widely used programming languages in history, itâ€™s imperative for Java developers to discover effective ways of using it in order to take full advantage of the power of the latest Java features. Java 11 Cookbook offers a range of software development solutions with simple and straightforward Java 11 code examples to help you build a modern software system.
 
 This book covers the following exciting features:
 * Set up JDK and understand what's new in the JDK 11 installation 
@@ -60,7 +60,7 @@ graduated as an engineer-physicist from Moscow Institute of Physics and Technolo
 After the demise of the USSR, Nick created and successfully ran a software company, but was forced to close it under pressure from governmental and criminal rackets. In 1999, with his wife Luda and two daughters, he emigrated to the USA and has been living in Colorado since then, working as a Java programmer.
 In his free time, Nick likes to read (mostly non-fiction), write (fiction novels and blogs), and hike the Rocky Mountains.
 
-**Mohamed Sanaulla **
+**Mohamed Sanaulla**
 is a full-stack developer with more than 8 years, experience in developing enterprise applications and Java-based backend solutions for e-commerce applications.
 His interests include enterprise software development, refactoring and redesigning applications, designing and implementing RESTful web services, troubleshooting Java applications for performance issues, and TDD.
 He has strong expertise in Java-based application development, ADF (a JSF-based Java EE web framework), SQL, PL/SQL, JUnit, designing RESTful services, Spring, Spring Boot, Struts, Elasticsearch, and MongoDB. He is also a Sun Certified Java Programmer for the Java 6 platform. He is a moderator for JavaRanch and likes to share his findings on his blog.
